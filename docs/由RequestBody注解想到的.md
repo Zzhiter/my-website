@@ -1,4 +1,4 @@
-# 由 RequestBody 注解想到的 副本
+# 由 RequestBody 注解想到的
 
 近日初学 SpringBoot 框架，Post 一个接口，返回了：
 
