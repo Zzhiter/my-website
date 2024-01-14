@@ -1,6 +1,9 @@
-# 从 Github 恢复 git push -f
-
-Recover Force Push on Github
+---
+slug: Recover Force Push on Github
+title: Recover Force Push on Github
+authors: Zzhiter
+tags: [Github, Git]
+---
 
 ## 背景
 
@@ -29,16 +32,16 @@ Recover Force Push on Github
     "type": "PushEvent",
     "actor": {
       "id": 61727602,
-      "login": "Zzhiter",
-      "display_login": "Zzhiter",
+      "login": "YOUR_NAME",
+      "display_login": "YOUR_NAME",
       "gravatar_id": "",
-      "url": "https://api.github.com/users/Zzhiter",
+      "url": "https://api.github.com/users/YOUR_NAME",
       "avatar_url": "https://avatars.githubusercontent.com/u/61727602?"
     },
     "repo": {
       "id": 693138740,
-      "name": "Zzhiter/Zzhiter.github.io",
-      "url": "https://api.github.com/repos/Zzhiter/Zzhiter.github.io"
+      "name": "YOUR_NAME/YOUR_NAME.github.io",
+      "url": "https://api.github.com/repos/YOUR_NAME/YOUR_NAME.github.io"
     },
     "payload": {
       "repository_id": 693138740,
@@ -52,12 +55,12 @@ Recover Force Push on Github
         {
           "sha": "19709fd69b846679a57edd1c0ee8ae0f199302b3",
           "author": {
-            "email": "Zz_hiter@163.com",
-            "name": "Zzhiter"
+            "email": "xxxx@163.com",
+            "name": "YOUR_NAME"
           },
           "message": "doc: add new file",
           "distinct": true,
-          "url": "https://api.github.com/repos/Zzhiter/Zzhiter.github.io/commits/19709fd69b846679a57edd1c0ee8ae0f199302b3"
+          "url": "https://api.github.com/repos/YOUR_NAME/YOUR_NAME.github.io/commits/19709fd69b846679a57edd1c0ee8ae0f199302b3"
         }
       ]
     },
@@ -69,16 +72,16 @@ Recover Force Push on Github
     "type": "PushEvent",
     "actor": {
       "id": 61727602,
-      "login": "Zzhiter",
-      "display_login": "Zzhiter",
+      "login": "YOUR_NAME",
+      "display_login": "YOUR_NAME",
       "gravatar_id": "",
-      "url": "https://api.github.com/users/Zzhiter",
+      "url": "https://api.github.com/users/YOUR_NAME",
       "avatar_url": "https://avatars.githubusercontent.com/u/61727602?"
     },
     "repo": {
       "id": 693138740,
-      "name": "Zzhiter/Zzhiter.github.io",
-      "url": "https://api.github.com/repos/Zzhiter/Zzhiter.github.io"
+      "name": "YOUR_NAME/YOUR_NAME.github.io",
+      "url": "https://api.github.com/repos/YOUR_NAME/YOUR_NAME.github.io"
     },
     "payload": {
       "repository_id": 693138740,
@@ -92,12 +95,12 @@ Recover Force Push on Github
         {
           "sha": "d3e142177d33de137566956bd8758b2ee77eaff2",
           "author": {
-            "email": "Zz_hiter@163.com",
-            "name": "Zzhiter"
+            "email": "xxxx@163.com",
+            "name": "YOUR_NAME"
           },
           "message": "add a test file",
           "distinct": true,
-          "url": "https://api.github.com/repos/Zzhiter/Zzhiter.github.io/commits/d3e142177d33de137566956bd8758b2ee77eaff2"
+          "url": "https://api.github.com/repos/YOUR_NAME/YOUR_NAME.github.io/commits/d3e142177d33de137566956bd8758b2ee77eaff2"
         }
       ]
     },
@@ -119,7 +122,7 @@ Recover Force Push on Github
 
 得到的数据很长，但是我们找到关键信息：
 
-"html_url": "[https://github.com/Zzhiter/Zzhiter.github.io/commit/d3e142177d33de137566956bd8758b2ee77eaff2](https://github.com/Zzhiter/Zzhiter.github.io/commit/d3e142177d33de137566956bd8758b2ee77eaff2)"
+"html_url": "[https://github.com/YOUR_NAME/YOUR_NAME.github.io/commit/d3e142177d33de137566956bd8758b2ee77eaff2](https://github.com/YOUR_NAME/YOUR_NAME.github.io/commit/d3e142177d33de137566956bd8758b2ee77eaff2)"
 
 ![](static/UFu3b1LTMoQONYxm4fxcBjRWn3b.png)
 

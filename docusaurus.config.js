@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Zzhiter\'s Blog',
+  tagline: 'Always on the road',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -65,7 +65,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Zzhiter\'s Blog',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -79,7 +79,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Zzhiter',
             label: 'GitHub',
             position: 'right',
           },
@@ -128,7 +128,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Zzhiter\'s Blog, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

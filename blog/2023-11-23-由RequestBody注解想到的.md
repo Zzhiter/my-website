@@ -1,3 +1,14 @@
+---
+slug: Thought of by RequestBody annotation
+title: Thought of by RequestBody annotation
+authors: Zzhiter
+tags: [Java, Spring]
+---
+
+Java的内容还是多的。
+
+<!--truncate-->
+
 # 由 RequestBody 注解想到的
 
 近日初学 SpringBoot 框架，Post 一个接口，返回了：

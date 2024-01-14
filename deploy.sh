@@ -17,6 +17,7 @@ git add .
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io
+# 在这里，请更改成你的仓库地址
 git push -f git@github.com:Zzhiter/Zzhiter.github.io.git master
 
 
