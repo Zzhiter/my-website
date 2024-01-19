@@ -18,8 +18,12 @@ git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io
 # 在这里，请更改成你的仓库地址
-git push -f git@github.com:Zzhiter/Zzhiter.github.io.git master
+# # 使用SSH
+# git push -f git@github.com:Zzhiter/Zzhiter.github.io.git master
 
+# 使用HTTPS
+git remote add origin https://github.com/Zzhiter/Zzhiter.github.io
+git push --set-upstream origin master -f
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:messiahhh/blog.git master:gh-pages
